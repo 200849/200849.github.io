@@ -2515,7 +2515,7 @@ span.color-red {
     padding: 0;
   }
 }
-#jiaqi{width:400px; height: 200px;background-color:blue ; position: relative; left: 400px;right:400px;}
+#jiaqi{width:400px; height: 200px; position: relative; left: 400px;right:400px;background-color: #2ECCFA;}
 /*--------------------------------------------------------------------------
 +	Extras Menu (Cart, Language, Login) Style
 --------------------------------------------------------------------------*/
