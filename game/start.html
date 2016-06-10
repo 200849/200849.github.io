@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>RUN</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery-1.11.3.js"></script>
+<script src="gamedev.js"></script>
+ 
+
+
+
+</head>
+<body onload="">
+
+
+
+
+	<div id="div">
+  		<div id="character"></div>
+  		<div id="spikes1"class="allSpikes"></div>
+  		<div id="spikes2"class="allSpikes"></div>
+  		
+  		<div id="finishline"></div>
+      <div style="text-align:center;width:480px;">
+      <button onmousedown="move('up')" onmouseup="clearmove()" ontouchstart="move('up')">UP</button><br><br>
+      <button onmousedown="move('left')" onmouseup="clearmove()" ontouchstart="move('left')">LEFT</button>
+      <button onmousedown="move('right')" onmouseup="clearmove()" ontouchstart="move('right')">RIGHT</button><br><br>
+      <button onmousedown="move('down')" onmouseup="clearmove()" ontouchstart="move('down')">DOWN</button>
+</div>
+  </div>
+  <div id="line"></div>
+
+
+</body>
+</html>
+
